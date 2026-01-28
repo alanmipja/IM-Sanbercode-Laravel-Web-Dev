@@ -17,8 +17,8 @@
     // =======================
     echo "<h3> Soal 1 </h3>";
 
-    // Array Kids dan Adults
-    $kids = array("Mike", "Dustin", "Will", "Lucas", "Max", "Eleven");
+    // Array Kids dan Adults (NAMA KIDS DIUBAH)
+    $kids = array("Jamal", "Budi", "Hasan", "wafir", "ashraf", "Fajar");
     $adults = array("Hopper", "Nancy", "Joyce", "Jonathan", "Murray");
 
     // =======================
@@ -79,7 +79,7 @@
         )
     );
 
-    // Tampilkan dengan print_r agar sesuai format output
+    // Tampilkan dengan print_r
     echo "<pre>";
     print_r($characters);
     echo "</pre>";
